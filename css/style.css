@@ -72,11 +72,59 @@ section > div > h3 {
 }
 
 section > div > h1 {
-    font-size: 60px;
+    font-size: 80px;
     color: var(--branco-1000);
 }
 
 section > div > h1 > span {
-    font-size: 100px;
+    font-size: 120px;
     color: var(--branco-1000);
+}
+
+main > section > div > p:first-of-type {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+main > section > div > p {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+main > section > div > button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    margin-top: 30px;
+    padding: 5px;
+    padding-left: 30px;
+    border-radius: 50px;
+    border: none;
+
+    font-size: 20px;
+    font-weight: 400;
+
+    background-color: var(--verde-500);
+    color: var(--branco-1000);
+
+    transition: 0.3s ease-in-out;
+}
+
+main > section > div > button:hover {
+    transform: scale(1.03);
+}
+
+main > section > div > button > img {
+    width: 50px; 
+    height: auto;
+    border-radius: 50%;
+    background-color: var(--verde-200);
+    padding: 10px;
+}
+
+main > section > div > img {
+    width: 100%;
 }
